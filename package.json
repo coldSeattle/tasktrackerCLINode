@@ -1,0 +1,30 @@
+{
+  "name": "tasktrackerclinode",
+  "version": "1.0.0",
+  "description": "Task tracker is a project used to track and manage your tasks. In this task, you will build a simple command line interface (CLI) to track what you need to do, what you have done, and what you are currently working on. This project will help you practice your programming skills, including working with the filesystem, handling user inputs, and building a simple CLI application.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/auth-basic": "^1.4.8",
+    "@octokit/rest": "^21.1.0",
+    "chalk": "^5.4.1",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^7.0.0",
+    "figlet": "^1.8.0",
+    "inquirer": "^12.4.1",
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.8",
+    "simple-git": "^3.27.0",
+    "touch": "^3.1.1"
+  },
+  "bin": {
+    "task-cli": "./task-cli"
+  }
+}

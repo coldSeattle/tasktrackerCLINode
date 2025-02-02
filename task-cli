@@ -1,0 +1,3 @@
+#!/bin/bash
+# task-cli исполнимый скрипт
+node ./src/index.js "$@"
